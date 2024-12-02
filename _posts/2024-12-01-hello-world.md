@@ -4,6 +4,7 @@ title: Hello World
 subtitle: Or how it took more than a year for me to set up this website
 tags: [misc, debian]
 author: Carlos Henrique Lima Melara - Charles
+date: 2024-12-01 23:18:09-03:00
 ---
 
 As the computer science tradition demands, we must start with a **Hello World**.
