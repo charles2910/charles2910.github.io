@@ -14,7 +14,7 @@ Let's jump to present day where I work full time with my computer and a lot of
 my free time goes to Debian. After I leave my $dayjob, my eyes were pretty much
 done, they were dry (working in AC all day doesn't help either), it was
 difficulty to focus on text and i was very tired in general. I remember reading
-somewhere reading text on a dark background was more demanding to our eyes so I
+somewhere reading white text on a dark background caused  more eye strain so I
 decided to give a try to a light theme (at least on terminal where I spend most
 of my day). I have to say things improved quite a lot and I decided to stick to
 it.
@@ -26,6 +26,9 @@ I was almost giving up. Then I decided to search the web and JACKPOT! Found
 some custom color schemes for terminals, more specifically
 [Gogh](http://gogh-co.github.io/Gogh/).
 
+![weechat default theme]({{ '/assets/img/posts/2024-12/weechat-default.png' |
+relative_url }}){: .mx-auto.d-block :}
+
 I really enjoyed Catppucin Latte color scheme, but the install instructions
 were `bash -c  "$(wget -qO- https://git.io/vQgMr)"` and there is no way on
 earth I'm bindly executing a script from the internet on my laptop - well, it
@@ -34,7 +37,18 @@ realized that I didn't need to install it, the hexadecimal color codes were
 written on the page showing the color schemes available. All I had to do is
 copy-and-pasta - yeah, my boss is Italian and now I can't help myself.
 
+![weechat catppucino theme]({{ '/assets/img/posts/2024-12/weechat-custom.png' |
+relative_url }}){: .mx-auto.d-block :}
+
 It all worked beatifully and I have a great color scheme! Yeah, I wish, the
 background color of neomut became a terrible gray that made everything terrible
-to read. The solution was to grab the color from the Gnome color scheme for
-that specific one.
+to read.
+
+![neomutt catppucino theme]({{ '/assets/img/posts/2024-12/neomut-catppucino.png' |
+relative_url }}){: .mx-auto.d-block :}
+
+The solution was to grab the color from the Gnome color scheme for
+that specific one and vóila:
+
+![neomutt custom theme]({{ '/assets/img/posts/2024-12/neomutt-custom.png' |
+relative_url }}){: .mx-auto.d-block :}
