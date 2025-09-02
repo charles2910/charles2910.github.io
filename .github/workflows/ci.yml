@@ -14,13 +14,16 @@ jobs:
       - name: Setup Pages
         id: configure-pages
         uses: actions/configure-pages@v5
+        if: ${{ github.ref == 'refs/heads/main' }}
       - name: Setup CI config
         run: |
           echo "---" > _config_ci.yml
           echo "baseurl: ${{ steps.configure-pages.outputs.base_path }}" >> _config_ci.yml
+        if: ${{ github.ref == 'refs/heads/main' }}
       - name: Build site
         env:
           JEKYLL_ENV: production
         run: bundle exec appraisal jekyll build --future --config _config_ci.yml,_config.yml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
